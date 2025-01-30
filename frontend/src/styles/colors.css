@@ -1,0 +1,71 @@
+/*
+    Authors:
+    >> Caroline BOILLY - { caroline.boilly@epitech.eu }
+    >> Nathan TIROLF - { nathan.tirolf@epitech.eu }
+
+    („• ֊ •„)❤  <  Have a good day !
+    --U-----U------------------------
+*/
+
+/* colors */
+:root {
+    --color-green: #50C878;
+    --color-green-2: #3E935A;
+    --color-dark: #36454f;
+    --color-light: #f7f7f7;
+    --color-gray: #C3CCD2;
+    --color-red: #FF6961;
+
+    --color-dark-05: rgba(54, 69, 79, 0.5);
+    --color-light-07: rgba(247, 247, 247, 0.7);
+}
+
+:root[color-blind="protanopia"] {
+    --color-green: #629D75;
+    --color-green-2: #4E8260;
+    --color-red: #949494;
+}
+
+:root[color-blind="deuteranopia"] {
+    --color-green: #7C7C63;
+    --color-green-2: #696950;
+    --color-red: #D47474;
+}
+
+:root[color-blind="tritanopia"] {
+    --color-green: #69A785;
+    --color-green-2: #548E6F;
+    --color-red: #D97A6A;
+}
+
+:root[color-blind="achromatopsia"] {
+    --color-green: #A8A8A8;
+    --color-green-2: #8F8F8F;
+    --color-red: #A9A9A9;
+}
+
+
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-green-2 {
+    color: var(--color-green-2);
+}
+
+.color-dark {
+    color: var(--color-dark);
+}
+
+.color-light {
+    color: var(--color-light);
+}
+
+.color-gray {
+    color: var(--color-gray);
+}
+
+.color-red {
+    color: var(--color-red);
+}

@@ -1,0 +1,10 @@
+{
+  "client": {
+    "host": "10.101.53.35"
+  },
+  "server": {
+    "current_time": 1531680780,
+    "services": [
+    ]
+  }
+}

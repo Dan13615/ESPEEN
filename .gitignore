@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+.node_modules/
+.env
+data/
+/init-mongo.js
+__pycache__
